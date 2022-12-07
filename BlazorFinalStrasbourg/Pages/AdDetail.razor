@@ -1,0 +1,102 @@
+﻿@inject HttpClient _HttpClient;
+@inject LoginService _loginService;
+@inject NavigationManager _NavigationManager;
+
+@using BlazorFinalStrasbourg.Services;
+@page "/ad/{Id:int}"
+@using BlazorFinalStrasbourg.DTOs;
+
+
+@if(Ad !=  null){
+    <div class="row m-1">
+        <div class="col-9">
+            <div class="contener text-center">
+                <div class="row">
+                    <div class="col">
+                        @if (@Ad?.Urls.Count > 0)
+                        {
+                            @foreach(string u in @Ad.Urls)
+                            {
+                                <img alt="image" src=@u width="75" height="25">
+                            }
+                        }
+                    </div>
+                    <div class="col">
+                        <b> @Ad.Title</b> <br />
+                        @Ad.Date
+                        @Ad.Status
+                        @Ad.Category
+                    </div>
+                    <div class="col-6">
+                        @Ad.Description
+                    </div>
+                    <div class="col">
+                    @foreach(CommentResponseDTO c in @Ad.Comments)
+                    {
+                        <div class="col-6">
+                            @c.Text
+                        </div>
+                        <div class="col">
+                            @c.Date
+                            @c.Status
+                        </div>
+                    }
+                    </div>
+                    <EditForm Model="this" OnSubmit="AddComment">
+                    <div class="col">
+                        <InputText class="form-control p-1 col-9" placeholder="Commentaire" @bind-Value="@Comment"></InputText> <div class="row m-1">
+                        <div>
+                            <button class="col-6 p-1 btn btn-danger" type="submit">Valider</button>
+                        </div>
+                        
+                        @if(@Response != null)
+                        {
+                            <p>@Response</p>
+                        }
+                        </div>
+                    </div>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public string Response { get; set; }
+
+    public AdResponseDTO Ad { get; set; }
+
+    public string Comment { get; set; }
+
+    protected async override void OnInitialized()
+    {
+        if (!_loginService.IsLogged)
+        {
+
+            _NavigationManager.NavigateTo("Login");
+
+        }
+        else
+        {
+            // _loginService.SetHeader();
+            Ad = await _HttpClient.GetFromJsonAsync<AdResponseDTO>("/api/v1/ads/"+Id);
+            StateHasChanged();
+        }
+    }
+
+    public async void AddComment()
+    {
+        MultipartFormDataContent content = new MultipartFormDataContent();
+        content.Add(new StringContent(Comment), "comment");
+        HttpResponseMessage responseMessage = await _HttpClient.PostAsync("api/v1/ads/"+Id+"/comment", content);
+        Response = await responseMessage.Content.ReadAsStringAsync();
+        Ad = await _HttpClient.GetFromJsonAsync<AdResponseDTO>("/api/v1/ads/" + Id);
+        StateHasChanged();
+    }
+}

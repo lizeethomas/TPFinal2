@@ -1,0 +1,155 @@
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\appsettings.Development.json
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\appsettings.json
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\TPFinalStrasbourg.exe
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\TPFinalStrasbourg.deps.json
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\TPFinalStrasbourg.runtimeconfig.json
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\TPFinalStrasbourg.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\TPFinalStrasbourg.pdb
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Azure.Core.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Azure.Identity.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Azure.Storage.Common.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Humanizer.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.CodeDom.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.IO.Hashing.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Text.Json.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Bureau\POEI\TPFinalStrasbourg\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.csproj.AssemblyReference.cache
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfoInputs.cache
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfo.cs
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.csproj.CoreCompileInputs.cache
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cs
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cache
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\staticwebassets.build.json
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\staticwebassets.development.json
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\scopedcss\bundle\TPFinalStrasbourg.styles.css
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.csproj.CopyComplete
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.dll
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\refint\TPFinalStrasbourg.dll
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.pdb
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.genruntimeconfig.cache
+E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\ref\TPFinalStrasbourg.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\appsettings.Development.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\appsettings.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\TPFinalStrasbourg.exe
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\TPFinalStrasbourg.deps.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\TPFinalStrasbourg.runtimeconfig.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\TPFinalStrasbourg.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\TPFinalStrasbourg.pdb
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Azure.Core.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Azure.Storage.Common.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Humanizer.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.IO.Hashing.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.csproj.AssemblyReference.cache
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfoInputs.cache
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfo.cs
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.csproj.CoreCompileInputs.cache
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cs
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cache
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\staticwebassets.build.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\staticwebassets.development.json
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\scopedcss\bundle\TPFinalStrasbourg.styles.css
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.csproj.CopyComplete
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\refint\TPFinalStrasbourg.dll
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.pdb
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.genruntimeconfig.cache
+E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\API\obj\Debug\net6.0\ref\TPFinalStrasbourg.dll

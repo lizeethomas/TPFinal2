@@ -1,0 +1,103 @@
+﻿@inject LoginService _loginService;
+@inject NavigationManager _NavigationManager;
+@inject HttpClient _HttpClient
+
+@page "/create/"
+@using BlazorFinalStrasbourg.Services
+@using BlazorFinalStrasbourg.DTOs
+@using System.Net
+@using System.Net.Http.Headers
+
+<h3>Nouvelle annonce</h3>
+
+    <EditForm Model="this" OnSubmit="NewAd">
+        <div>
+            <InputText placeholder="Titre de l'annonce'" @bind-Value="Title"></InputText>
+        </div>
+        <div>
+            <InputTextArea placeholder="Description'" @bind-Value="Description"></InputTextArea>
+        </div>
+        <div>
+            <InputNumber placeholder="Catégorie" @bind-Value="CategoryId"></InputNumber>
+        </div>
+        
+        <div>
+            <button type="submit">Valider</button>
+        </div>
+        <div>@Response</div>
+    </EditForm>
+
+    <EditForm Model="this">
+        <div>
+            <InputFile OnChange="@FileChanged"></InputFile>
+        </div>
+    </EditForm>
+
+    <EditForm Model="this" OnSubmit="BackHome">
+    <div>
+        <button type="submit">Retour au menu principal</button>
+    </div>
+    </EditForm>
+
+@code {
+
+    public int? AdId {get; set;}
+    public string? Title { get; set; }
+    public string? Description { get; set; }
+    public int CategoryId { get; set; }
+    public string? Result { get; set; }
+    public string? Response {get; set; }
+
+    protected async override void OnInitialized()
+    {
+        if (!_loginService.IsLogged)
+        {
+            _NavigationManager.NavigateTo("Login");
+        }
+
+    }
+
+    public async void NewAd()
+    {
+        AdRequestDTO adRequest = new AdRequestDTO()
+        {
+            Title = Title,
+            Description = Description,
+            CategoryId = CategoryId
+        };
+        HttpResponseMessage responseMessage = await _HttpClient.PostAsJsonAsync("/api/v1/ads/create/", adRequest);
+        AdResponseDTO adResponseDTO = await responseMessage.Content.ReadFromJsonAsync<AdResponseDTO>();
+        AdId = adResponseDTO.Id;
+        Response = "Annonce ajoutée avec succès";
+        StateHasChanged();
+    }
+
+    public async void FileChanged(InputFileChangeEventArgs e)
+    {
+        foreach (IBrowserFile file in e.GetMultipleFiles())
+        {
+            MultipartFormDataContent content = new MultipartFormDataContent();
+            HttpContent contentFile = new StreamContent(file.OpenReadStream());
+            contentFile.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+            content.Add(new StreamContent(file.OpenReadStream()), "\"image\"",fileName: file.Name );
+            //strasbourg-final-pictures
+            HttpResponseMessage response = await _HttpClient.PutAsync("/container/strasbourg-final-pictures", content);
+            //if (response.StatusCode == HttpStatusCode.OK)
+
+            /*
+            MultipartFormDataContent content2 = new MultipartFormDataContent();
+            content2.Add(new StringContent(Result), "file.Name");
+            HttpResponseMessage responseMessage = await _HttpClient.PostAsync("api/v1/ads/" + AdId + "/picture", content2);
+            Response = await responseMessage.Content.ReadAsStringAsync();
+            StateHasChanged();
+            */
+
+        }
+    }
+
+    public void BackHome()
+    {
+        _NavigationManager.NavigateTo("/");
+    }
+
+}

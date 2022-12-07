@@ -1,0 +1,62 @@
+﻿@page "/"
+@using BlazorFinalStrasbourg.Services
+@using BlazorFinalStrasbourg.DTOs
+@using BlazorFinalStrasbourg.Components
+@inject LoginService _loginService;
+@inject NavigationManager _NavigationManager;
+@inject HttpClient _HttpClient
+<h3>Annonces</h3>
+
+<EditForm Model="this" OnSubmit="Search">
+        <div>
+            <InputText placeholder="Recherche" @bind-Value="UserSearch"></InputText>
+        </div>
+        <div>
+            <button type="submit">Valider</button>
+        </div>
+</EditForm>
+
+
+@if (AdList != null)
+{
+    @foreach (AdResponseDTO ad in AdList)
+    {
+        <AdComponent adResponse="@ad"></AdComponent>
+
+        <br>
+    }
+}
+
+@code {
+    public List<AdResponseDTO>? AdList { get; set; }
+    public string UserSearch { get; set; }
+
+    protected async override void OnInitialized()
+    {
+        if (!_loginService.IsLogged)
+        {
+            _NavigationManager.NavigateTo("Login");
+
+        }
+        else
+        {
+            // _loginService.SetHeader();
+            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+            StateHasChanged();
+        }
+
+    }
+
+    public async void Search()
+    {
+        if (UserSearch != "")
+        {
+            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads/search/" + UserSearch);
+        }
+        else 
+        {
+            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+        }
+        StateHasChanged();
+    }
+}
