@@ -42,7 +42,7 @@ builder.Services.AddAuthentication(a =>
     ValidateLifetime = true,
     ValidateAudience = true,
     ValidAudience = "LeMauvaisCoin",
-    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Bonjour je suis la clé de sécurité pour générer la JWT")),
+    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Bonjour je suis la clï¿½ de sï¿½curitï¿½ pour gï¿½nï¿½rer la JWT")),
 
 });
 builder.Services.AddAuthorization((builder) =>

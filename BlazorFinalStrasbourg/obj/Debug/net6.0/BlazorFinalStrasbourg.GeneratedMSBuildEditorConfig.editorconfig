@@ -5,55 +5,53 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = browser
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = true
-build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorFinalStrasbourg
 build_property.RootNamespace = BlazorFinalStrasbourg
-build_property.ProjectDir = E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\BlazorFinalStrasbourg\
+build_property.ProjectDir = C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TpFinal4\TPFinal2\BlazorFinalStrasbourg\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Bureau\POEI\Nouveau dossier\TPFinalStrasbourg\BlazorFinalStrasbourg
+build_property.MSBuildProjectDirectory = C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TpFinal4\TPFinal2\BlazorFinalStrasbourg
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/App.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Components/AdComponent.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Components/AdComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Pages/AdDetail.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Pages/AdDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWREZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Pages/Ads.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Pages/Ads.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Pages/CreateAd.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Pages/CreateAd.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Pages/Login.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Shared/SurveyPrompt.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/_Imports.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Shared/MainLayout.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qlqhl0ieba
 
-[E:/Bureau/POEI/Nouveau dossier/TPFinalStrasbourg/BlazorFinalStrasbourg/Shared/NavMenu.razor]
+[C:/Users/frits/Documents/Csharp/Cours_Exos/06 - TpFinal/TpFinal4/TPFinal2/BlazorFinalStrasbourg/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kz39u0muz8

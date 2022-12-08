@@ -32,14 +32,17 @@
                     </div>
                     <div class="col">
                     @foreach(CommentResponseDTO c in @Ad.Comments)
-                    {
-                        <div class="col-6">
-                            @c.Text
-                        </div>
-                        <div class="col">
-                            @c.Date
-                            @c.Status
-                        </div>
+                        {
+                            @if(c.Status == "Validée")
+                            {
+                                <div class="col-6">
+                                    @c.Text
+                                </div>
+                                <div class="col">
+                                    @c.Date
+                                </div>
+                                
+                            }
                     }
                     </div>
                     <EditForm Model="this" OnSubmit="AddComment">

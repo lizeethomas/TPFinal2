@@ -12,16 +12,6 @@
           "System.Text.Encodings.Web": "4.7.2",
           "System.Text.Json": "4.7.2",
           "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/net5.0/Azure.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Azure.Core.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Azure.Storage.Blobs/12.14.0": {
@@ -46,16 +36,6 @@
         "dependencies": {
           "Azure.Core": "1.25.0",
           "System.IO.Hashing": "6.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Azure.Storage.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Azure.Storage.Common.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -777,16 +757,6 @@
       },
       "System.IO.Hashing/6.0.0": {
         "type": "package",
-        "compile": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
-        },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
@@ -1048,13 +1018,9 @@
         "azure.core.1.25.0.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
-        "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
-        "lib/net5.0/Azure.Core.dll",
         "lib/net5.0/Azure.Core.xml",
-        "lib/netcoreapp2.1/Azure.Core.dll",
         "lib/netcoreapp2.1/Azure.Core.xml",
-        "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
@@ -1088,7 +1054,6 @@
         "azure.storage.common.12.13.0.nupkg.sha512",
         "azure.storage.common.nuspec",
         "azureicon.png",
-        "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml"
       ]
     },
@@ -2140,13 +2105,9 @@
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
         "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.IO.Hashing.dll",
         "lib/net461/System.IO.Hashing.xml",
-        "lib/net6.0/System.IO.Hashing.dll",
         "lib/net6.0/System.IO.Hashing.xml",
-        "lib/netstandard2.0/System.IO.Hashing.dll",
         "lib/netstandard2.0/System.IO.Hashing.xml",
         "system.io.hashing.6.0.0.nupkg.sha512",
         "system.io.hashing.nuspec",
@@ -2672,26 +2633,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lizee\\.nuget\\packages\\": {}
+    "C:\\Users\\frits\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bureau\\POEI\\Nouveau dossier\\TPFinalStrasbourg\\API\\TPFinalStrasbourg.csproj",
+      "projectUniqueName": "C:\\Users\\frits\\Documents\\Csharp\\Cours_Exos\\06 - TpFinal\\TpFinal4\\TPFinal2\\API\\TPFinalStrasbourg.csproj",
       "projectName": "TPFinalStrasbourg",
-      "projectPath": "E:\\Bureau\\POEI\\Nouveau dossier\\TPFinalStrasbourg\\API\\TPFinalStrasbourg.csproj",
-      "packagesPath": "C:\\Users\\lizee\\.nuget\\packages\\",
-      "outputPath": "E:\\Bureau\\POEI\\Nouveau dossier\\TPFinalStrasbourg\\API\\obj\\",
+      "projectPath": "C:\\Users\\frits\\Documents\\Csharp\\Cours_Exos\\06 - TpFinal\\TpFinal4\\TPFinal2\\API\\TPFinalStrasbourg.csproj",
+      "packagesPath": "C:\\Users\\frits\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frits\\Documents\\Csharp\\Cours_Exos\\06 - TpFinal\\TpFinal4\\TPFinal2\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lizee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\frits\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2766,8 +2732,28 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Azure.Storage.Common 12.13.0 n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le package Azure.Storage.Common 12.13.0 ne prend pas en charge les versions cibles du .NET Framework.",
+      "libraryId": "Azure.Storage.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Azure.Core 1.25.0 n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le package Azure.Core 1.25.0 ne prend pas en charge les versions cibles du .NET Framework.",
+      "libraryId": "Azure.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -33,6 +33,7 @@
 
     protected async override void OnInitialized()
     {
+        AdList = new List<AdResponseDTO>();
         if (!_loginService.IsLogged)
         {
             _NavigationManager.NavigateTo("Login");
@@ -41,7 +42,16 @@
         else
         {
             // _loginService.SetHeader();
-            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+            List<AdResponseDTO>? temp = new List<AdResponseDTO>();
+            temp = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+
+            temp.ForEach(a =>
+            {
+                if (a.Status == "Validée")
+                {
+                    AdList.Add(a);
+                }
+            });
             StateHasChanged();
         }
 
@@ -51,11 +61,28 @@
     {
         if (UserSearch != "")
         {
-            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads/search/" + UserSearch);
+            List<AdResponseDTO>? temp = new List<AdResponseDTO>();
+            temp = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+
+            temp.ForEach(a =>
+            {
+                if (a.Status == "Validée")
+                {
+                    AdList.Add(a);
+                }
+            });
         }
         else 
         {
-            AdList = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+            List<AdResponseDTO>? temp = new List<AdResponseDTO>();
+            temp = await _HttpClient.GetFromJsonAsync<List<AdResponseDTO>>("/api/v1/ads");
+            temp.ForEach(a =>
+            {
+                if (a.Status == "Validée")
+                {
+                    AdList.Add(a);
+                }
+            });
         }
         StateHasChanged();
     }

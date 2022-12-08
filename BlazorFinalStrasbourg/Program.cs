@@ -12,7 +12,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://20.242.208.197") });
 
 //app
-builder.Services.AddSingleton(sp => new HttpClient { BaseAddress = new Uri("https://strasbourg-api.azurewebsites.net/") });
+builder.Services.AddSingleton(sp => new HttpClient { BaseAddress = new Uri("http://20.237.68.150") });
 
 
 builder.Services.AddSingleton<LoginService>();

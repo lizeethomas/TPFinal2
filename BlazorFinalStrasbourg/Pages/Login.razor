@@ -1,4 +1,5 @@
 ﻿@page "/Login"
+@using BlazorFinalStrasbourg.DTOs;
 @using BlazorFinalStrasbourg.Services
 @using System.Diagnostics
 @inject HttpClient _HttpClient
@@ -21,14 +22,61 @@
 
         </div>
         <div class="row m-1">
-            <button class="col-6 p-1 btn btn-danger" type="submit">Valider</button>
+            <button class="col-6 p-1 btn btn-primary" type="submit">Valider</button>
         </div>
     </EditForm>
 </div>
+<br/>
+<br />
+
+<div class=" container">
+    <EditForm Model="this" OnSubmit="CreateUser">
+    <div class="row m-1">
+        <button class="col-6 p-1 btn btn-info type="submit">Créer un compte</button>
+    </div>
+    </EditForm>
+</div>
+@if (CreateAccount)
+{
+    <EditForm Model="this" OnSubmit="SubmitCreate">
+
+        <div class="row m-1">
+            <div class="col-6">
+                <InputText class="p-1 form-control" @bind-Value="UserName" placeholder="Saisir votre nom"></InputText>
+            </div>
+
+        </div>
+        <div class="row m-1">
+            <div class="col-6">
+                <InputText  class="col-6 p-1 form-control" @bind-Value="UserEmail" placeholder="Saisir votre mail"></InputText>
+            </div>
+
+        </div>
+        <div class="row m-1">
+            <div class="col-6">
+                <InputText type="password" class="col-6 p-1 form-control" @bind-Value="UserPassword" placeholder="Saisir votre mot de passe"></InputText>
+            </div>
+
+        </div>
+        <div class="row m-1">
+            <button class="col-6 p-1 btn btn-primary" type="submit">Valider</button>
+        </div>
+        <div>
+            @UserCreated
+        </div>
+    </EditForm>
+
+}
 
 @code {
     public string Name { get; set; }
     public string Password { get; set; }
+    public bool CreateAccount { get; set; }
+    public string UserName { get; set; }
+    public string UserEmail { get; set; }
+    public string UserPassword { get; set; }
+    public string UserCreated { get; set; }
+
 
     public async void SubmitLogin()
     {
@@ -45,5 +93,30 @@
             _Navigation.NavigateTo("");
         }
 
+    }
+
+    public void CreateUser()
+    {
+        CreateAccount = true;
+    }
+
+    public async void SubmitCreate()
+    {
+        UserRequestDTO req = new UserRequestDTO()
+            {
+                Name = UserName,
+                Email = UserEmail,
+                Password = UserPassword
+            };
+
+        HttpResponseMessage responseMessage = await _HttpClient.PostAsJsonAsync("/api/v1/users/newuser/", req);
+        if (responseMessage != null)
+        {
+            UserName = "";
+            UserEmail = "";
+            UserPassword = "";
+            UserCreated = "Votre compte est créé, il sera validé prochainement par un administrateur.";
+        }
+        StateHasChanged();
     }
 }
