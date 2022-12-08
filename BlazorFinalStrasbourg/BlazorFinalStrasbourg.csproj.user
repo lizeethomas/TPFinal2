@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>BlazorFinalStrasbourg</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\mouss\Documents\Formation\Exercices\LatestTPFinal\TPFinal2\BlazorFinalStrasbourg\Properties\PublishProfiles\strasbourg-final-blazor - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

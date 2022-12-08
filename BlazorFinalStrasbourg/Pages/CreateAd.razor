@@ -80,8 +80,34 @@
             HttpContent contentFile = new StreamContent(file.OpenReadStream());
             contentFile.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
             content.Add(new StreamContent(file.OpenReadStream()), "\"image\"",fileName: file.Name );
-            //strasbourg-final-pictures
+            //strasbourg-final-pictures*
+
+            List<string> initialBlobsList = new();
+            initialBlobsList = await _HttpClient.GetFromJsonAsync<List<string>>("/blob/strasbourg-final-pictures"); 
             HttpResponseMessage response = await _HttpClient.PutAsync("/container/strasbourg-final-pictures", content);
+            List<string> newBlobsList = new();
+            newBlobsList = await _HttpClient.GetFromJsonAsync<List<string>>("/blob/strasbourg-final-pictures");
+
+            string newBlob="";
+            newBlobsList.ForEach(nb =>
+            {
+                bool flagTest = false;
+                initialBlobsList.ForEach(ib =>
+                {
+                    if(nb == ib)
+                    {
+                        flagTest = true;
+                    }
+                });
+                if(flagTest == false)
+                {
+                    newBlob = "https://utopios.blob.core.windows.net/strasbourg-final-pictures/"+nb;
+                }
+            });
+            MultipartFormDataContent content2 = new MultipartFormDataContent();
+            content2.Add(new StringContent(newBlob), "url");
+            HttpResponseMessage responseMessage = await _HttpClient.PostAsync("api/v1/ads/" + AdId + "/picture", content2);
+            StateHasChanged();
             //if (response.StatusCode == HttpStatusCode.OK)
 
             /*

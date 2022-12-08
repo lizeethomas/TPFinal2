@@ -1,0 +1,1 @@
+C:\Users\mouss\Documents\Formation\Exercices\LatestTPFinal\TPFinal2\BlazorFinalStrasbourg\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config
